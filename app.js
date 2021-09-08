@@ -1,6 +1,3 @@
-if(process.env.DEV !== 'production'){
-   require('dotenv').config();
-}   
 
 const express = require('express');
 const expressLayouts = require('express-layouts')
